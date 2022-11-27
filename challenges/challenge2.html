@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Detector</title>
+</head>
+<body>
+    <!-- input -->
+    
+    <h1>Speed Detector</h1>
+    <input type=" number" id="speed" placeholder="Enter Speed"/>
+    <button id="btn">Click Me</button>
+    <p></p>
+       
+   <script>
+    // event listener
+    const button = document.getElementById("btn");
+    button.addEventListener("click", function(){
+        let speed = parseInt(document.getElementById("speed").value);
+        let p = document.querySelector("p");
+
+        // coditions
+        if(speed<70){
+          p.innerHTML = `okay`;
+        
+        }
+            // to access speed above 70 
+        else{
+          let totalSpeed = speed-70; 
+          let points = parseInt(totalSpeed/5);
+          // if our points are greater than 12 then license is suspended
+            if(points > 12){
+            points = `License suspended`;
+            
+            }
+            p.innerText = points;
+        }
+    })
+    
+   </script> 
+</body>
+</html>
