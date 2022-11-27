@@ -1,6 +1,6 @@
-# Title
-*Toy problems*
-
+# Toy problems
+# Author
+By Terry Wachuka
 # Description
 This are 3 challenges we are required to solve using JavaScript:
 1.  Student Grade Generator:
@@ -16,7 +16,8 @@ This are 3 challenges we are required to solve using JavaScript:
 To run this program:
    - $ Fork the repository from my git hub.
    - $ Clone this repository to a location in your file system.
-   - $ Open terminal command line then navigate to the root folder of the application.- $ Run the code from VS Code or Atom through a liveserver to chrome browser.
+   - $ Open terminal command line then navigate to the root folder of the application.
+   - $ Run the code from VS Code or Atom through a liveserver to chrome browser.
    - $ Make changes where need be.
 
     
