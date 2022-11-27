@@ -1,7 +1,7 @@
 # Toy problems
-# Author
+## Author
 By Terry Wachuka
-# Description
+## Description
 This are 3 challenges we are required to solve using JavaScript:
 1.  Student Grade Generator:
     Prompting the user to input student marks and output a grade, as shown below: 
@@ -12,7 +12,7 @@ This are 3 challenges we are required to solve using JavaScript:
 3. Net Salary Calculator:
    Writing a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
-# Setup and Installation Requirements
+## Setup and Installation Requirements
 To run this program:
    - $ Fork the repository from my git hub.
    - $ Clone this repository to a location in your file system.
@@ -21,11 +21,14 @@ To run this program:
    - $ Make changes where need be.
 
     
- # Technologies Used
+ ## Technologies Used
  1. Javascript 
  2. HTML
  3. CSS
 
-# Support and contact details
+## Support and contact details
     email: terrywachuka10@gmail.com
+## Licence
+[MIT](https://github.com/T-erry/toy-challeges/commit/f89f268f374c14fffdb8cdc3155a17efc42bfb01)
+
 
