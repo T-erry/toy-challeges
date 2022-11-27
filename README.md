@@ -21,8 +21,9 @@ To run this program:
 
     
  # Technologies Used
-   JavaScript
- HTML
+ 1. Javascript 
+ 2. HTML
+
 # Support and contact details
     email: terrywachuka10@gmail.com
 
