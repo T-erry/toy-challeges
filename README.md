@@ -4,13 +4,13 @@
 # Description
 This are 3 challenges we are required to solve using JavaScript:
 1.  Student Grade Generator:
-   I am prompting the user to input student marks and output a grade. 
+    Prompting the user to input student marks and output a grade, as shown below: 
+     A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 2. Speed Detector:
-    I am prompting the user to input the speed of car and the output should give the driver demerit points.
+   Writing a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 3. Net Salary Calculator:
-
-    I am calculating an individual’s Net Salary by getting the inputs of basic salary and benefit.
+   Writing a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
 # Setup and Installation Requirements
 To run this program:
@@ -23,6 +23,7 @@ To run this program:
  # Technologies Used
  1. Javascript 
  2. HTML
+ 3. CSS
 
 # Support and contact details
     email: terrywachuka10@gmail.com
