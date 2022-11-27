@@ -29,6 +29,6 @@ To run this program:
 ## Support and contact details
     email: terrywachuka10@gmail.com
 ## Licence
-[MIT](https://github.com/T-erry/toy-challeges/commit/f89f268f374c14fffdb8cdc3155a17efc42bfb01)
+This project is under the [MIT](https://github.com/T-erry/toy-challeges/commit/f89f268f374c14fffdb8cdc3155a17efc42bfb01) licence.
 
 
