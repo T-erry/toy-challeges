@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Generator</title>
+    <style>
+        h1{
+        color: #272044;
+        text-align: center;
+      }
+      h2{
+        text-align: center;
+      }
+      button{
+        border-radius: 25px;
+        display: block;
+        margin: 0 auto;
+        background-color: #fff;
+        border: 1px solid #885df1;
+        color: #885df1;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;  
+      }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Welcome to my student grade generator</h1>
+        <h2>Enjoy!</h2>
+        <br />
+        <button>Apply now</button>
+      </section>
+      <script>
+        // functional declaration
+        function studentMarks(){
+          let marks = prompt("Enter marks:");
+        let h1 = document.querySelector("h1")
+        let h2 = document.querySelector("h2")
+       // if marks < 0 || marks > 100 -- wrong entry
+        if(marks<0 || marks>100) {
+         h1.innerHTML=  `Wrong grades`;
+         h2.innerHTML = `Try again!`;
+        }
+         //if marks > 79 80-100 grade A
+       else if(marks > 79 ){
+       h1.innerHTML = `Grade A`;
+       h2.innerHTML = `Excellent!`; 
+     }
+    // if marks > 60 && marks<=79 61-79 grade B
+    else if(marks>60 && marks<=79){
+       h1.innerHTML = `Grade B`;
+       h2.innerText = `Good!`;
+    }
+    // if marks > 49 && marks<=59 50-59 grade C
+    else if (marks>49 && marks<=59){
+        h1.innerHTML =  `Grade C`
+        h2.innerHTML = `Average!`
+    }
+    // if marks > 40 && marks<=49 41-49 grade D
+    else if (marks>40 && marks<=49){
+        h1.innerHTML =`Grade D`;
+        h2.innerHTML =`Put more effort!`
+    }
+    else{
+        // marks < 40
+        h1.innerHTML= `Grade E`;
+        h2.innerHTML = `  Poor!`
+    }     
+        }
+         
+        let button = document.querySelector("button");
+        button.addEventListener("click", studentMarks);
+
+      </script>
+</body>
+</html>
